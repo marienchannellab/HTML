@@ -1,3 +1,11 @@
-h2 {
-    text-transform: capitalize;
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-LightItalic.woff') format('woff'),
+        url('../fonts/Roboto-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+html{
+    font-family: 'Roboto','Courier New', Courier, monospace;
 }
