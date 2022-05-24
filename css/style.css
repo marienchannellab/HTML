@@ -6,6 +6,104 @@
     font-style: italic;
 }
 
-html{
-    font-family: 'Roboto','Courier New', Courier, monospace;
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('../fonts/Roboto-Light.woff') format('woff'),
+        url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('../fonts/Roboto-Thin.woff') format('woff'),
+        url('../fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('../fonts/Roboto-Medium.woff') format('woff'),
+        url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../fonts/Roboto-Bold.woff') format('woff'),
+        url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.round {
+    border-radius: 100%;
+    margin: 0 30px 0 0;
+}
+
+.tr {
+    margin: 100px;
+}
+
+.name {
+    font-family: 'RobotoThin';
+    color: rgb(11, 83, 148);
+    font-size: 48px;
+}
+
+.age {
+    font-family: 'Roboto';
+    color: rgb(11, 83, 148);
+    font-size: 17px;
+    text-align: center;
+}
+
+.contacts {
+    font-family: 'Roboto';
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    text-align: center;
+}
+
+.sign {
+    font-family: 'RobotoMedium';
+    color: rgb(102, 102, 102);
+    font-size: 23px;
+}
+
+.company {
+    font-family: 'RobotoThin';
+    color: rgb(11, 83, 148);
+    font-size: 18px;
+}
+
+ul {
+    font-family: 'Roboto';
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+}
+
+.contents {
+    font-family: 'RobotoBold';
+    color: rgb(102, 102, 102);
+    font-size: 25px;
+}
+
+.office{
+    font-family: 'Roboto';
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+}
+
+.edu{
+    font-family: 'RobotoBold';
+    color: rgb(11, 83, 148);
+    font-size: 25px;
+}
+
+dd{
+    font-family: 'Roboto';
+    color: rgb(102, 102, 102);
+    font-size: 18px; 
 }
