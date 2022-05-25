@@ -36,14 +36,20 @@
     font-weight: bold;
     font-style: normal;
 }
+body{
+    background-image: url(../picture/bg.png);
+    margin: 0;
+}
 
 .round {
     border-radius: 100%;
-    margin: 0 30px 0 0;
+    margin: 0 35px 0 0;
 }
 
 .tr {
-    margin: 100px;
+    /*margin: 100px;*/
+    border: 50vh;
+    background-color: rgb(255, 255, 255, 0.5);
 }
 
 .name {
@@ -82,6 +88,7 @@ ul {
     font-family: 'Roboto';
     color: rgb(102, 102, 102);
     font-size: 18px;
+    
 }
 
 .contents {
