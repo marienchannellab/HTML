@@ -38,24 +38,36 @@
 }
 body{
     background-image: url(../picture/bg.png);
-    margin: 0;
+}
+
+table {
+    width: 1000px;
 }
 
 .round {
     border-radius: 100%;
-    margin: 0 35px 0 0;
+    /* margin: 0 35px 0 0; */
 }
 
-.tr {
-    /*margin: 100px;*/
+/* .tr {
+    margin: 100px;
     border: 50vh;
     background-color: rgb(255, 255, 255, 0.5);
+} */
+#leftcol {
+    border: 1px;
+    padding-top: 30px;
+    padding-left: 150px;
+    /* padding-right: 50px; */
 }
+
 
 .name {
     font-family: 'RobotoThin';
     color: rgb(11, 83, 148);
     font-size: 48px;
+    text-align: center;
+    margin: 60px 0 25px 0;
 }
 
 .age {
@@ -121,13 +133,20 @@ dd{
 }
 
 .link:hover {
-    border-bottom: 1px solid;
+    color: rgb(107, 95, 5);
 }
 
 .link:visited {
-    color: rgb(74, 2, 79);
+    color: rgb(5, 83, 107);
 }
 
 .link:active {
-    color: rgb(102, 102, 102);
+    color: rgb(107, 95, 5);
+}
+
+.fa-brands {
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 19px;
+    margin-bottom: 16px;
 }
