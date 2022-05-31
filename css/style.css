@@ -38,6 +38,7 @@
 }
 body{
     background-image: url(../picture/bg.png);
+    z-index: 58888;
 }
 
 table {
@@ -46,28 +47,15 @@ table {
 
 .round {
     border-radius: 100%;
-    /* margin: 0 35px 0 0; */
+    margin: 0 35px 0 0;
 }
-
-/* .tr {
-    margin: 100px;
-    border: 50vh;
-    background-color: rgb(255, 255, 255, 0.5);
-} */
-#leftcol {
-    border: 1px;
-    padding-top: 30px;
-    padding-left: 150px;
-    /* padding-right: 50px; */
-}
-
 
 .name {
     font-family: 'RobotoThin';
     color: rgb(11, 83, 148);
-    font-size: 48px;
+    font-size: 60px;
     text-align: center;
-    margin: 60px 0 25px 0;
+    margin: 60px 0 32px 0;
 }
 
 .age {
@@ -75,6 +63,7 @@ table {
     color: rgb(11, 83, 148);
     font-size: 17px;
     text-align: center;
+    margin: 0 0 19px 0;
 }
 
 .contacts {
@@ -145,8 +134,23 @@ dd{
 }
 
 .fa-brands {
-    font-size: 30px;
+    font-size: 35px;
     margin-right: 20px;
-    margin-top: 19px;
-    margin-bottom: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+picture {
+    float: left;
+}
+
+.info {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 11%;
+}
+
+.tr {
+    margin-left: 7%;
+    margin-right: 7%;
 }
