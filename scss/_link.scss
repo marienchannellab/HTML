@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-LightItalic.woff') format('woff'),
+        url('../fonts/Roboto-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('../fonts/Roboto-Thin.woff') format('woff'),
+        url('../fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+$myColor: rgb(11, 83, 148);

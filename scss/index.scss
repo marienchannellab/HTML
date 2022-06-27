@@ -1,0 +1,22 @@
+@import "./link";
+
+@mixin size ($_size){
+    font-size: $_size;
+}
+
+.cardCompany {
+    margin: 0;
+    color: $myColor;
+
+    &__summary {
+        font-family: 'RobotoThin';
+        @include size(18px);
+    }
+
+    &__office {
+        font-family: 'Roboto';
+        color: rgb(102, 102, 102);
+        @include size(20px);   
+    }
+
+}
